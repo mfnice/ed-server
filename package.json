@@ -20,11 +20,29 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@alicloud/dysmsapi20170525": "^2.0.23",
+    "@alicloud/openapi-client": "^0.4.6",
+    "@alicloud/tea-util": "^1.4.7",
+    "@apollo/server": "^4.7.5",
+    "@nestjs/apollo": "^12.0.4",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/graphql": "^12.0.6",
+    "@nestjs/jwt": "^10.1.0",
+    "@nestjs/passport": "^10.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/typeorm": "^10.0.0",
+    "ali-oss": "^6.17.1",
+    "apollo-server-express": "^3.12.0",
+    "dayjs": "^1.11.8",
+    "graphql": "^16.7.1",
+    "md5": "^2.3.0",
+    "mysql2": "^3.4.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "type-graphql": "^2.0.0-beta.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
@@ -36,6 +54,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "class-validator": "^0.14.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -47,6 +66,7 @@
     "ts-loader": "^9.2.3",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.2.0",
+    "typeorm": "^0.3.17",
     "typescript": "^5.0.0"
   },
   "jest": {
